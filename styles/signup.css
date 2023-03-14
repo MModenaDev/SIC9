@@ -1,0 +1,55 @@
+@import url("header.css");
+
+.buttonGroup {
+  display: flex;
+  justify-content: end;
+}
+
+.nav_button,
+.nav_button-cta {
+  display: block;
+  text-decoration: none;
+  color: var(--cor3);
+  font: 400 1rem var(--font);
+  border-top: 3px solid var(--cor1);
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.nav_button-cta {
+  background-color: var(--cor2);
+  text-align: center;
+  color: white;
+  font: 700 1rem var(--fontLogo);
+}
+
+.nav_link-cta:hover {
+  background-image: linear-gradient(to right, var(--cor2), white);
+  color: black;
+}
+
+.titulo {
+  font: 700 1.5rem var(--font);
+  color: black;
+  padding: 2rem 0;
+}
+
+.outer {
+  width: 500px;
+  height: 500px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  margin: 150px auto;
+  box-sizing: border-box;
+  padding: 50px 80px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
